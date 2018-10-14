@@ -20,7 +20,9 @@ editing,recpriority,seriesid,commflagged,recgroup,episode,bookmarkupdate,autoexp
 
 
 
-import json
+import json, glob
+
+file_list = (glob.glob("/home/justin/2TBRaid/Recordings/*.ts"))
 
 with open ('recorded.json', 'r') as f:
 	data = json.load(f)
@@ -40,5 +42,8 @@ for recording in data:
 
 for index, episode in enumerate(unique_episodes):
     print episode, basename_list[index]
-    print
+    if basename_list[index] in file_list:
+        print
+        print 'file exists!'
+        print
 
