@@ -41,8 +41,8 @@ for recording in data:
         basename_list.append(recording['basename'])
 
 for index, episode in enumerate(unique_episodes):
-    print episode, basename_list[index]
     if basename_list[index] in file_list:
+        print episode, basename_list[index]
         print
         print 'file exists!'
         print
