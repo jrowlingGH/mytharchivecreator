@@ -31,12 +31,12 @@ with open ('recorded.json', 'r') as f:
 #     print key, data[0][key]
 # print
 
-unique_PoIs = []
+unique_episodes = []
 for recording in data:
-    if 'Person of Interest' == recording['title'] and 'S1 Ep3' in recording['description']:
-        unique_PoIs.append(recording['description'])
+    if 'Castle' == recording['title']: # and 'S1 Ep3' in recording['description']:
+        unique_episodes.append(recording['description'])
 
-for poi in unique_PoIs:
-    print poi
+for episode in unique_episodes:
+    print episode
     print
 
