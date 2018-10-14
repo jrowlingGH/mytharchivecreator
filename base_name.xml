@@ -1,0 +1,23 @@
+<!DOCTYPE MYTHARCHIVEITEM>
+<item type="recording" databaseversion="1344">
+    <recorded>
+        <chanid>1072</chanid>
+        <starttime>2015-05-16T19:01:00</starttime>
+        <endtime>2015-05-16T20:00:00</endtime>
+        <title>Castle</title>
+        <subtitle>Archive Test 2</subtitle>
+        <description>I used mytharchivehelper</description>
+        <season>98</season>
+        <episode>99</episode>
+        <category>Entertainment</category>
+        <hostname>quiet-pc</hostname>
+        <lastmodified>2015-05-16T20:17:11</lastmodified>
+        <filesize>671564952</filesize>
+        <basename>arch_test.ts</basename>
+        <progstart>2015-05-16T19:01:00</progstart>
+        <progend>2015-05-16T20:00:00</progend>
+        <playgroup>Default</playgroup>
+        <storagegroup>Default</storagegroup>
+    </recorded>
+    <channel chanid="1072" channum="72" name="YourTV" callsign="YourTV"/>
+</item>
