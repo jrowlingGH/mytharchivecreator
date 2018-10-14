@@ -36,6 +36,7 @@ basename_list = []
 for recording in data:
     if 'Castle' == recording['title']: # and 'S1 Ep3' in recording['description']:
         unique_episodes.append(recording['description'])
+        basename_list.append(recording['basename'])
 
 for index, episode in enumerate(unique_episodes):
     print episode, basename_list[index]
