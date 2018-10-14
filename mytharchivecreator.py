@@ -38,6 +38,6 @@ for recording in data:
         unique_episodes.append(recording['description'])
 
 for index, episode in enumerate(unique_episodes):
-    print episode, index
+    print episode, basename_list[index]
     print
 
